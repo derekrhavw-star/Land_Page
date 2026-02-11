@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8" />
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <style>
+        p {
+            background-color: #47072f;
+            color: white;
+            /* font-size: 40px; */
+            font-size: 5vh;
+            font-weight: bold;
+            /*letras*/
+            text-align: center;
+        }
+
+        table thead {
+            background-color: #661246;
+            color: white;
+            /* font-size: 40px; */
+            font-size: 3vh;
+            font-weight: bold;
+            /*letras*/
+            text-align: center;
+        }
+
+        table tbody {
+            background-color: white ;
+            font-weight: bold;
+            color: rgb(107, 4, 4);
+            font-size: 2vh;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Esto es una tag p, es un "parrafo" -->
+    <p>Mejores juegos de pc multijugador</p>
+    <!-- table es una tabla -->
+    <table class="table table-dark table-striped">
+        <!-- thead es el encabezado de la tabla -->
+        <thead>
+            <!-- tr es table row, sirve para generar filas en la tabla -->
+            <tr>
+                <!-- td es table data, osea columnas -->
+                <td>Titulo</td>
+                <td>Peso en GB</td>
+                <td>Genero</td>
+                <td>Control o teclado</td>
+                <td>P2WIN?</td>
+                <td>Acciones</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Helldivers 2</td>
+                <td>30 GB</td>
+                <td>Shooter</td>
+                <td>Ambos</td>
+                <td>No</td>
+                <td>
+                    <button>Editar</button>
+                    <a class="btn btn-primary" href="#" role="button">Link</a>
+                    <button>Borrar</button>
+                    <button type="button" class="btn btn-danger">nostoy</button>
+                </td>
+            </tr>
+            <tr>
+                <td>GTA V</td>
+                <td>100 GB</td>
+                <td>Mundo abierto</td>
+                <td>Ambos</td>
+                <td>Si</td>
+                <td>
+                    <button>Editar</button>
+                    <button>Borrar</button>
+                    <button type="button" class="btn btn-danger">gei</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

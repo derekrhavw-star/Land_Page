@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" /> <!-- biblioteca para los iconos  -->  
+    
+    <style>
+        body{
+            background-color: #ffebc1;
+        }
+
+        .tabla {
+           color: rgb(97, 0, 0); 
+           font-size: 3vh;
+           font-weight: bold;
+           text-align: left;
+        }
+
+        .tabla2
+        {
+            color: rgb(97, 0, 0); 
+            font-size: 3vh;
+            font-weight: bold;
+            text-align: center;
+        }
+
+
+        .foto {
+            width: 100%;
+            size-adjust: initial;
+        }
+
+        
+
+
+    </style>
+    <!-- ni perra idea de como moverle al tamaño de la imagen -->
+    <!-- width mueve la imagen a la izquierda o derecha ajustando el porcentaje -->
+    <!-- se produce un salto de línea en automatico por que?? -->                                                                                                                                                                                                                                    
+                    
+<body>
+    <table>
+        <div class = "tabla">
+            Galería Sucursales Facturación Menú 
+            <div class="tabla2">
+
+               <div class ="foto">
+              <img src="https://imgs.search.brave.com/6IOhv23S688BmD5Ectu6p30DYOfr6AYsqFGr_bA6UWc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucmFwcGkuY29t/Lm14L3Jlc3RhdXJh/bnRzX2xvZ28vbG9n/by0xNzQyOTQ1OTY3/MzMwLnBuZz9kPTE1/MHgxNTAmZT13ZWJw/JnE9MTA" class="rounded mx-auto d-block" alt="...">
+              </div>
+
+            <i class="bi bi-youtube"></i> 
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-tiktok"></i>      <!--mostrar iconos en pantalla -->
+            <i class="bi bi-envelope"></i>
+            <i class="bi bi-whatsapp"></i>
+            </div>
+        </div>
+    </table>
+</body>
+
+    
+
+   
+<!-- en la seccion src colocar links de imagenes -->
+
+<!-- aqui ta el fucjing carrusel wiiiiiiiiiiii -->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://imgs.search.brave.com/qsRedhdUmPOQ1E9DY3E1cN3KB44kCgqd5o6OHnIkOzU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MWIvY2MvYjIvY2Mv/Y29tZm9ydC1mb29k/LmpwZw" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://imgs.search.brave.com/-Olg0V72zKXn5_J3DqY5DHhsBR9AZm8B_Yk-dGZLkxg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucmFwcGkuY29t/Lm14L3Byb2R1Y3Rz/L2ZkOGEzOTljLWYy/MjEtNDQ3NC04M2Ex/LTMyNjQyYzRmZTg3/My0xNjM3MzU4MDc5/ODU0LnBuZz9kPTMw/MHgzMDAmZT13ZWJw/JnE9MTA" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://imgs.search.brave.com/KgM_uzJcToGpoBOAlHPWMM64_0VHVaM_tDyR92cC1RI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MTAvMTgvOWMvY2Yv/Y3VtcGxlYW5vcy15/LWZlc3Rlam9zLmpw/Zw" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</html>
+
