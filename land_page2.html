@@ -16,23 +16,22 @@
         body{
             background-color: #ffebc1;
         }
-
+        
+        .fondo{
+          background-color: rgb(97, 0, 0);
+        }
         .tabla {
            color: rgb(97, 0, 0); 
            font-size: 3vh;
            font-weight: bold;
            text-align: left;
         }
-
-        .tabla2
-        {
-            color: rgb(97, 0, 0); 
-            font-size: 3vh;
-            font-weight: bold;
-            text-align: center;
+        .tabla {
+           color: rgb(97, 0, 0); 
+           font-size: 3vh;
+           font-weight: bold;
+           text-align: left;
         }
-
-
         .foto {
             width: 100%;
             size-adjust: initial;
@@ -47,38 +46,30 @@
     <!-- se produce un salto de línea en automatico por que?? -->                                                                                                                                                                                                                                    
                     
 <body>
-    <table>
         <div class = "tabla">
-            Galería Sucursales Facturación Menú 
-            <div class="tabla2">
+          <div class="row">
+            <div class="col-9">Galería Sucursales Facturación Menú </div>       
+          
+          <div class="col-3" style="text-align: right;"><i class="bi bi-youtube"></i><i class="bi bi-facebook"></i><i class="bi bi-tiktok"></i><i class="bi bi-envelope"></i><i class="bi bi-whatsapp"></i></div>
+          </div>
+            
 
-               <div class ="foto">
-              <img src="https://imgs.search.brave.com/6IOhv23S688BmD5Ectu6p30DYOfr6AYsqFGr_bA6UWc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucmFwcGkuY29t/Lm14L3Jlc3RhdXJh/bnRzX2xvZ28vbG9n/by0xNzQyOTQ1OTY3/MzMwLnBuZz9kPTE1/MHgxNTAmZT13ZWJw/JnE9MTA" class="rounded mx-auto d-block" alt="...">
-              </div>
-
-            <i class="bi bi-youtube"></i> 
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-tiktok"></i>      <!--mostrar iconos en pantalla -->
-            <i class="bi bi-envelope"></i>
-            <i class="bi bi-whatsapp"></i>
-            </div>
+          <div class ="foto">
+          <img src="https://imgs.search.brave.com/6IOhv23S688BmD5Ectu6p30DYOfr6AYsqFGr_bA6UWc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucmFwcGkuY29t/Lm14L3Jlc3RhdXJh/bnRzX2xvZ28vbG9n/by0xNzQyOTQ1OTY3/MzMwLnBuZz9kPTE1/MHgxNTAmZT13ZWJw/JnE9MTA" class="rounded mx-auto d-block" alt="...">
+          </div>        
         </div>
-    </table>
-</body>
-
-    
-
-   
+</body> 
 <!-- en la seccion src colocar links de imagenes -->
 
 <!-- aqui ta el fucjing carrusel wiiiiiiiiiiii -->
-<div id="carouselExampleIndicators" class="carousel slide">
+ <div class="fondo">
+<div id="carouselExampleIndicators" class="carousel slide" style="display: flex; justify-content: center; margin: 20px auto;"> <!-- style="display: flex; justify-content: center; margin: 20px auto;" Esto le da el formato necesario para cambiar y alinear el carrusel con los comandos align -->
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner" style="height: 200px;">
+  <div class="carousel-inner" style="height: 200px; width: 800px; display: flex; align-items: center; justify-content: left;"> <!-- display: flex; align-items: center; justify-content: center;" formato necesario para cambiar de posición el carrusel, justify content center siendo el principal -->
     
     
     <div class="carousel-item active">
@@ -99,6 +90,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
 </div>
 </div>
 </html>
